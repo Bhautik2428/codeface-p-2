@@ -38,8 +38,8 @@ li a:hover{
    border-radius: 30px 30px;
     position: relative;
 }
-/* @media (min-width: 768px)
-{
+
+@media (min-width: 768px){
     .searchbaricon {
         background-color: white;
         padding: 5px;
@@ -49,11 +49,9 @@ li a:hover{
         margin-right: 10%;
         border-radius: 30px 30px;
     }
-}    */
+}  
 input{
     border: 2px solid white;
-    /* margin-left: 50%; */
-    /* margin-top: -17%; */
     position: absolute;
     height: 80%;
     width: 50%;
@@ -81,13 +79,9 @@ input{
 }
 .loremtext{
     font-size: small;
-    /* padding: %; */
-
     margin-top: 20%;
-    
     text-align: center;
     color: white;
-    /* font-size: large; */
 }
 .orngbox{
     background-color: #ff66006b;
@@ -96,7 +90,8 @@ input{
     width: 70%;
     margin-left: 20%;
 }
- /* @media(min-width : 768px){
+
+@media(min-width : 768px){
     .orngbox{
         background-color: #ff66006b;
         height: 100%;
@@ -104,104 +99,7 @@ input{
         margin-left: 20%;
     }
         
-}  */
-.lorem{
-    text-align: center;
-    /* padding: 10%; */
-    font-size: larger;
-    color: white;
-}
-.headerright{
-    text-align: center;
-}
-.blackdiv{
-    padding: 5%;
-    background-color: black;
-}
-.yellowdiv{
-    
-    padding: 5% 10% 5% 10%;
-    text-align: center;
-    background-color: #ffaf3c;
-    margin-left: 50px;
-    
-}
-.route{
-    font-size: 300%;
-    font-weight: 700;
-}
-.loremroute{
-    /* background-color: black; */
-    background-image: url('preview.png');
-    background-size: contain;
-    
-    background-repeat: no-repeat;
-    color: white;
-    /* margin-top: 5%;  */
-    margin-left: 15%;
-    margin-right: 15%;
-    font-family: Roboto Condensed,sans-serif;
-    
-    padding: 5%;
-    padding-left: 17%;
-    padding-right: 20%; 
-    text-align: center;
-    font-size: 110%;
-}
-
-
-.level{
-    text-align: center;
-    font-weight: 700;
-    font-size: 250%;
-}
-.threecol{
-    text-align: center;
-    font-size: larger;
-}
-.chooselvl{
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 3%;
-}
-.lorem2{
-    text-align: left;
-}
-.beginner {
-    padding: 5%;
-    font-family: Roboto Condensed,sans-serif;
-}
-.lorem2{
-    padding: 5%;
-    padding-bottom: 15%;
-}
-.learnmore2{
- width: 60%;
- background-color: rgba(255, 255, 255, 0);
- color: black;
- font-weight: 600;
- border: 3px solid black;
- border-radius: 30px 30px;
- padding: 1%;
- padding-left: 2%;
- padding-right: 2%;
- 
- text-align: center
-}
-footer{
-    
-    background-image: url('https://img.freepik.com/free-photo/young-man-with-equipment-exploring-nature_23-2148375098.jpg?w=900&t=st=1678534370~exp=1678534970~hmac=9d484836f959cdd370654bb9ac08233135044b7f755fdad46d9e8d11df4be7ce');
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-bottom: 40%;
-    font-family: Roboto Condensed,sans-serif;
-
-}
-hr{
-    width: 90%;
-    
-}
-
+}  
 
 
 
